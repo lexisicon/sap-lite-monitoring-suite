@@ -40,15 +40,15 @@ Steps:
 ```bash
 
 # 1. Create a virtual environment
-python -m venv venv
+cd dashboard
+py -m venv venv
 venv\\Scripts\\activate        # On Windows
 source venv/bin/activate      # On Mac/Linux
 
 # 2. Install Flask
-pip install -r requirements.txt
+pip install flask
 
 # 3. Start the app
-cd dashboard
 python app.py
 ```
 
